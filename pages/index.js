@@ -1,3 +1,4 @@
+import { firestore } from '../firebase/clientApp';
 
 export default function Home() {
   return (

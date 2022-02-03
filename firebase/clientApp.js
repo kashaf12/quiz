@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore} from "firebase/firestore";
 
 initializeApp( {
    apiKey:process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -10,5 +9,3 @@ initializeApp( {
    appId:process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
    measurementId:process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 });
-const firestore = getFirestore();
-export {firestore};
